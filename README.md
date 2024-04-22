@@ -8,14 +8,12 @@ This repository contains Python scripts for training and evaluating neural netwo
 2. **Transfer Learning with VGG16**
 3. **Enhanced Model from Literature**
 
-### Requirements:
-- Python 3.x
-- TensorFlow
-- Keras
-- numpy
-- matplotlib
-- scikit-learn
-
+## File Structure
+- `data120.npy`: Numpy array containing image data.
+- `labels120.npy`: Numpy array containing corresponding labels.
+- `README.md`: This file providing an overview of the project.
+- `requirements.txt`: Text file listing all the required dependencies for the project.
+- `main.npy`: Main file to run.
 
 ## Dataset
 - First, download the dataset from the following link as a .zip file: [Histopathological Lung and Colon Cancer Dataset](https://academictorrents.com/details/7a638ed187a6180fd6e464b3666a6ea0499af4af)
@@ -28,18 +26,23 @@ This repository contains Python scripts for training and evaluating neural netwo
 3. Follow the code comments to execute the code step by step.
 4. Make sure to have the dataset downloaded and saved in the appropriate directory as mentioned in the code.
 
-## Usage
-- Execute the code cells in your preferred environment, ensuring the dataset is accessible.
-- Follow the provided code comments for each step, including data preprocessing, model training, evaluation, and visualization.
-- Experiment with different hyperparameters, architectures, and optimization techniques as described in the code.
-- Utilize the provided evaluation functions to assess the performance of the models, including ROC curves, classification reports, confusion matrices, etc.
+### Requirements:
+- Python 3.x
+- TensorFlow
+- Keras
+- numpy
+- matplotlib
+- scikit-learn
 
-## File Structure
-- `data120.npy`: Numpy array containing image data.
-- `labels120.npy`: Numpy array containing corresponding labels.
-- `README.md`: This file providing an overview of the project.
-- `requirements.txt`: Text file listing all the required dependencies for the project.
-- Other Python script files containing code for data preprocessing, model creation, evaluation functions, etc.
+## Usage
+1. Clone the repository to your local machine: `git clone https://github.com/spirostefos/CNN_image_rec.git`
+2. Navigate to the project directory: `cd CNN_image_rec`
+3. Install the required dependencies: `pip install -r requirements.txt`
+4. Run the main script to execute the project: `python main.py`
+5. Execute the code cells in your preferred environment, ensuring the dataset is accessible.
+6. Follow the provided code comments for each step, including data preprocessing, model training, evaluation, and visualization.
+7. Experiment with different hyperparameters, architectures, and optimization techniques as described in the code.
+8. Utilize the provided evaluation functions to assess the performance of the models, including ROC curves, classification reports, confusion matrices, etc.
 
 ## Instructions:
 
