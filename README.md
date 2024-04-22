@@ -20,11 +20,6 @@ This repository contains Python scripts for training and evaluating neural netwo
 - Extract the zip file into a folder. You can then upload this dataset to your Google Drive folder or use it on any platform you want.
 - For more information about the dataset, you can refer to this article: [Article Link](https://arxiv.org/abs/1912.12142)
 
-## Setup Instructions
-1. Clone the repository or download the code files to your local machine.
-2. Ensure you have the required dependencies installed.
-3. Follow the code comments to execute the code step by step.
-4. Make sure to have the dataset downloaded and saved in the appropriate directory as mentioned in the code.
 
 ### Requirements:
 - Python 3.x
