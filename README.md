@@ -41,7 +41,7 @@ This repository contains Python scripts for training and evaluating neural netwo
 - `requirements.txt`: Text file listing all the required dependencies for the project.
 - Other Python script files containing code for data preprocessing, model creation, evaluation functions, etc.
 
-### Instructions:
+## Instructions:
 
 #### 1. Custom Convolutional Neural Network (CNN):
 - **create_model_final function**: Defines the architecture of the custom CNN model.
