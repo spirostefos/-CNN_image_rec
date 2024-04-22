@@ -1,7 +1,7 @@
-# Histopathological Lung and Colon Cancer Image Classification using Convolutional Neural Networks (CNNs)
+# Overview: Histopathological Lung and Colon Cancer Image Classification using Convolutional Neural Networks (CNNs)
 
 This project aims to classify histopathological lung and colon cancer images using Convolutional Neural Networks (CNNs), which is crucial for early diagnosis and effective patient care. The dataset consists of 25,000 images resized to 120 x 120 pixels, covering both benign and malignant tissues. Initially, a baseline CNN model is trained and evaluated. Subsequently, hyperparameter tuning and architecture adjustments are performed, drawing inspiration from existing literature. Transfer learning techniques are then explored, leveraging the pre-trained VGG16 model. The goal is to develop precise models for medical image classification, aiding in accurate diagnosis and treatment planning.
-### Overview:
+
 This repository contains Python scripts for training and evaluating neural network models for image classification tasks using the TensorFlow and Keras libraries. Three different models have been implemented and evaluated:
 
 1. **Custom Convolutional Neural Network (CNN)**
